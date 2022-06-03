@@ -4,7 +4,7 @@
 
 /**
 * main - "assign a random number to the variable n each time it is executed"
-*	return - "0 - success"
+* Return: Always 0 (Success)"
 */
 int main(void)
 {
