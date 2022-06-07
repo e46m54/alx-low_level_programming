@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* int _abs - calculate absulute of int
+* _abs - calculate absulute of int
 * @n: input an integer
 * Return: Absolute value of int
 */
