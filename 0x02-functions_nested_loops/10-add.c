@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 *add - add int
 *@a: int added to b
 *@b: int added to a
