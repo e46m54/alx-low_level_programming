@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 /*
 * add - add int
 * @a: int added to b
