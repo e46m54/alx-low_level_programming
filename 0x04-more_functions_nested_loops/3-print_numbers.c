@@ -1,0 +1,19 @@
+#include "main.h"
+/**
+* print_numbers -  a function that prints the numbers
+*
+* Return: void
+*/
+
+void print_numbers(void)
+{
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		_putchar('0' + i);
+	}
+
+	_putchar('\n');
+
+}
