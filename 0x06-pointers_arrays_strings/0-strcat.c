@@ -7,11 +7,7 @@
 */
 char *_strcat(char *dest, char *src)
 {
-	dest = 1;
-
-	src = 2;
-
-	dest = src;
+	dest[] = src[];
 
 	return (dest);
 }
