@@ -7,8 +7,6 @@
 */
 char *_strcat(char *dest, char *src)
 {
-	char dest[MAX_SIZE], src[MAX_SIZE];
-
 	_strcat(dest, src);
 
 	return (dest);
