@@ -7,8 +7,17 @@
 */
 char *_strcat(char *dest, char *src)
 {
-	dest = src;
-	_putchar("%d, dest\n");
+	int length, b;
 
+	length = 0;
+	while (dest[length] != '\0')
+	{
+		length++;
+	}
+	for (b = 0; src[b] != '\0'; b++, length++)
+	{
+		dest[length] = src[b];
+	}
+	dest[length] = '\0';
 	return (dest);
 }
