@@ -6,7 +6,7 @@
  * @c: storaged char
  * Return: pointer of an array of chars
  */
-har *create_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *cr;
 	unsigned int i;
